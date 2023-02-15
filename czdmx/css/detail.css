@@ -1,0 +1,137 @@
+
+/* 游戏介绍 */
+.d_introduce{
+	clear: both;
+	/*padding: 40px 100px 10px  100px;
+	background: #fcfcfc;*/
+}
+.d_introduce .introduce_item{
+	overflow: hidden;
+}
+.d_introduce .introduce_item p{
+	clear: both;
+	line-height: 30px;
+	font-size: 16px;
+	padding-bottom: 4px;
+}
+.d_introduce .introduce_item h3{
+	float: left;
+	line-height: 30px;
+	font-size: 15px;
+	color: #fff;
+	font-weight: bold;
+	padding: 0 20px;
+	border-radius: 5px;
+	background: #9344f2;
+	margin-bottom: 4px;
+}
+
+/* 游戏截图 */
+.d_banner{clear: both;padding-top: 30px;width:840px;margin:0 auto;}
+.snapShotWrap{width:840px;overflow:hidden;position:relative;}
+#shotNext{top:0;right:0;z-index:9999;}
+#shotPrev{top:0;left:0;z-index:9999;}
+.snap-shot-btn{position:absolute;width:50%;height:100%;opacity:0.7;filter:alpha(opacity=70);z-index:3;}
+#shotNext i{background-position: -239px -67px;right:20px;}
+#shotPrev i{background-position: -199px -67px;left:20px;}
+#shotNext:hover i{background-position: -239px -147px;}
+#shotPrev:hover i{background-position: -199px -147px;}
+.snap-shot-btn i{background:url(../images/icon.png) no-repeat;position:absolute;width:18px;height:32px;top:50%;margin:-16px 0 0 0;}
+.snapShotCont{width:840px;position:relative;overflow:hidden;}
+.snopshot{position:absolute;overflow:hidden;zoom:1;text-align:center;}
+.snapShotCont img{position:relative;width:100%;height:auto;}
+.elementOverlay{z-index:1;position:absolute;top:0;left:0;background:#000;width:100%;height:100%;opacity:0.4;filter:alpha(opacity=40);}
+.elementOverlays{z-index:1;position:absolute;top:0;left:0;background:#000;width:100%;height:100%;opacity:0;filter:alpha(opacity=0);}
+
+/*标签*/
+
+
+
+.gameDetail .gD1,.gameDetail .gD2{
+	float: left;
+}
+.gameDetail .gD1{
+	width: 120px;
+	height: 120px;
+	margin-right: 15px;
+	overflow: hidden;
+}
+.gameDetail .gD1 img{
+	display: block;
+	width: 100%;
+	border-radius: 25px;
+}
+.gameDetail .gD2 .gD2_a{
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.gameDetail .gD2 .gD2_a li{
+	float: left;
+	margin-right: 14px;
+	position: relative;
+	overflow: hidden;
+}
+.gameDetail .gD2 .gD2_a li a{
+	display: block;
+	float: left;
+	font-size: 14px;
+	color: #869cb8;
+	line-height: 24px;
+	padding: 0 13px;
+	background: #fafcfe;
+	text-align: center;
+	margin: 8px 5px 0 0;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all .2s linear
+}
+.gameDetail .gD2 .gD2_a li a:hover{
+	background: #83a1f9;
+	color: #fff
+}
+.gameDetail .gD2 .gD2_b{
+	width: 330px;
+	overflow: hidden;
+}
+.gameDetail .gD2 .gD2_b li{
+	float: left;
+	width: 165px;
+	font-size: 14px;
+	color: #999;
+	line-height: 24px;
+	height: 24px;
+	overflow: hidden;
+}
+.gameDetail .gD2 .gD2_b li a{
+	color: #565656;
+}
+.gameDetail .gD2 .gD2_b li a.Links{
+	color: #83a1f9;
+}
+.gameDetail .gD2 .gD2_b li a.Links:hover{
+	text-decoration: underline;
+}
+.gameDetail .gD4{
+	float: right;
+}
+.gameDetail .gD4 a{
+	display: block;
+	cursor: pointer;
+	width: 100px;
+	height: 22px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	line-height: 20px;
+	font-weight: bold;
+	background: #cacccc;
+	margin-bottom: 4px;
+	transition: opacity .2s linear
+}
+.gameDetail .gD4 a.android{
+	background: url(../images/icon.png) #58e222 no-repeat 165px -43px;
+}
+.gameDetail .gD4 a:hover{
+	opacity: .8;
+	filter:alpha(opacity=80)
+}
