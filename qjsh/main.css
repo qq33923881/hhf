@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document  background:url(img/bodybg.jpg) center 30px no-repeat #FFF;*/
+body{font-family:Arial, Helvetica, sans-serif,"å®‹ä½“"; font-size:12px;  color:#667382}
+*{ padding:0px; margin:0px;}
+ul{margin:0px;padding:0px;}
+li{list-style-type:none;margin:0px;padding:0px;}
+.fl{ float:left;}
+.fr{ float:right;}
+.cl{ clear:both;}
+img{ border:0px;}
+.font3{font-family:"é»‘ä½“"; color:#0054a6; font-size:14px; font-weight:bold}
+
+.mart1{ margin-top:10px;}
+.marb1{ margin-bottom:10px;}
+.marr1{ margin-right:13px;}
+
+a:link{ color:#667382; text-decoration:none;}
+a:visited { color: #667382; text-decoration:none;}
+a:hover { color: #0054a6; text-decoration:none;}
+a:active { color: #0054a6; text-decoration:none;}
+
+.linkD a:link, .linkD a:visited{ color:#FFF; text-decoration:none}
+.linkD a:hover, .linkD a:active{ color:#FFF; text-decoration: underline}
+
+
+
+
+
+
+
+
+    /*.left_ban_ico_wy{ background:url(../img/index/left_all.gif) -20px -220px no-repeat;}*/
+
+.yxzl_right{ width:727px; border:1px solid #c8d5e0;}
+/*æ¸¸æˆèµ„æ–™*/
+.yxjs_top{ height:260px;}
+    .yxjstu{ width:405px; height:252px; border:1px solid #fff;}
+    .yxjstu_11{ width:300px; height:123px; overflow:hidden; border-bottom:1px dashed #dadada; padding-top:10px;}
+    .yxjstu_tit{width:300px; height:23px;}
+    .yxjstu_22{ width:300px; height:123px; padding-top:10px; overflow:hidden; line-height:21px; }
+            .yxjstu_11 P{ line-height:22px;}
+            .yxjstu_11 P b{ color:#2b7fd5;}
+        .yxjs_bot{ width:59px; height:20px; line-height:20px; background:url(http://image.91wan.com/91wan/img/yxzl/fwq_new.jpg) 0px -48px no-repeat; margin-right:6px;  font-weight:bold; color:#dbf8fc; text-align:center; margin-top:5px;}
+        .yxzn_nr{ height:161px;width:717px; }
+        .yxzn_zb{ width:93px; height:161px;}
+            .yxzn_zb li{ background:url(http://image.91wan.com/91wan/img/yxzl/fwq_new.jpg) 0px -115px no-repeat; width:77px; height:25px; text-align:center; line-height:23px;color:#FFF; font-weight:bold; margin:15px 0 0 12px;}
+        .yxzn_yb{ width:624px; height:161px;}
+            .yxzn_yb li{ height:18px; color:#595959; border-bottom:1px dashed #bdbdbd; margin:20px 10px;}
+            .yxzn_yb a{padding:0px 5px;color:#595959;text-decoration:none;}
+        .yxgl_nr{}
+            .newsbox{ margin:10px 12px; width:691px;}
+            .newsbox li{ background:url(http://image.91wan.com/91wan/img/yxzl/icq.gif) left no-repeat; line-height:30px; height:33px; border-bottom:1px dashed #bdbdbd; padding-left:12px;}
+
+            /*æœåŠ¡å™¨åˆ—è¡¨*/
+            .list_nr{ width:700px; margin:0 auto; padding-top:20px;}
+            .list_jr{height:32px; background:#ecf5fc; border:1px solid #b9d8f7; line-height:32px; color:#015fbf; padding-left:10px;}
+            .inpt{}
+            .inpt input{ width:100px; height:20px; background:#fff; border:0px; padding:0px 5px; line-height:20px; border:1px solid #b9d8f7; color:#7b7b7b; margin-top:5px;}
+            .btn_jran{ background:url(img/kflb.jpg) 0px 0px no-repeat; width:64px; height:20px; margin: 6px 0px 0px 10px; overflow:hidden; display:block;}
+
+            .list_add{width:700px; height:auto!important;  overflow:hidden; min-height:590px;}
+            .list_add ul{ width:720px; }
+            .list_add ul li{ background:url(img/fwq_btn.jpg) 0 0 no-repeat; width:224px; height:27px; float:left; line-height:27px; text-align:center; margin:10px 14px 0 0;}
+            .list_add ul li:hover{ background-position:0 -27px;}
+            .list_add span{ padding-left:10px;}
+
+
+
+/*æ·»åŠ css*/
+    .star_tj{ width:116px; height:20px; padding-left:5px;}
+    .tj_jr{ background:url(http://image.91wan.com/91wan/img/yxzl/fwq_new.jpg) 0 -28px; width:79px; height:20px; margin-right:6px;  margin-top:5px;}
+    .tj_jr a{ width:79px; height:20px; margin-right:6px; text-indent:-999px; display:block;}
+    .fwq_col{ color:#2b7fd5;}
+    .fwq_btn{ background:url(http://image.91wan.com/91wan/img/yxzl/fwq_new.jpg) 0 -68px; width:292px; height:47px; display:block;}
+        .fwq_btn p{ line-height:42px; text-indent:60px;}
+        .fwq_btn span{ color:#fcff00; padding-left:10px;}
+    .btn_qh{ border-bottom:1px solid #cccccc; height:25px;}
+    .yxzl_btn_bs{ background:url(http://image.91wan.com/91wan/img/yxzl/fwq_new.jpg) -1px -215px; width:114px; height:26px; margin-left:10px; display:block;}
+    .syfwq_btn{ background:url(http://image.91wan.com/91wan/img/yxzl/fwq_new.jpg) -115px -215px; width:114px; height:26px; display:block;}
+
+
+/*æ´»åŠ¨ä¸­å¿ƒ*/
+
+        /* #################### ç¿»é¡µ ##################### */
+
+.fwq_more{ width:168px; height:34px; margin:15px auto; display:block;}
+
