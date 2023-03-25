@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <div id="webchat" role="main"></div>
+      <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+      <script>
+
+         // Set style options.
+         const styleOptions = {
+            botAvatarInitials: 'BF',
+            userAvatarInitials: 'WC'
+         };
+
+         window.WebChat.renderWebChat(
+            {
+               directLine: window.WebChat.createDirectLine({
+                  token:  'https://webchat-mockbot.azurewebsites.net/directline/token'
+               }),
+               userID: 'YOUR_USER_ID',
+               username: 'Web Chat User',
+               locale: 'en-US',
+               styleOptions
+            },
+            document.getElementById('webchat')
+         );
+      </script>
+   </body>
+</html>
