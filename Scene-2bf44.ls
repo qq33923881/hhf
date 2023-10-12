@@ -1,1 +1,0 @@
-{"_$ver":1,"_$id":"lx8mwule","_$type":"Scene","left":0,"right":0,"top":0,"bottom":0,"name":"Scene2D","_$child":[{"_$id":"8zdh95ze","_$type":"Sprite","name":"Sprite","x":524,"y":276,"width":100,"height":100,"texture":{"_$uuid":"resources/bg_jiasu1.png","_$type":"Texture"}}]}
